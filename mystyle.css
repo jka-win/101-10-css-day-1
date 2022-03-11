@@ -1,0 +1,44 @@
+body {
+    background-color: magenta;
+}
+
+h1 {
+    background-color: lime;
+    color: yellow;
+    text-align: right;
+    padding: 50px;
+}
+
+h2 {
+    transform: skewX(45deg);
+    color:blueviolet;
+    margin: 10px;
+    font-size: small;
+}
+
+p {
+    background-color: white;
+}
+
+table {
+    margin: 0px 33%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+th {
+    background-color: skyblue;
+}
+
+td {
+    border: 5px inset cyan;
+}
+
+table tr:nth-child(odd) {
+    background-color: black;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: white;
+}
